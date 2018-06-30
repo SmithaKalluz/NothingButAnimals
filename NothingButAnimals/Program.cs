@@ -50,7 +50,7 @@ namespace NothingButAnimals
                 var forSale = new ForSale(animal);
                 listOfAnimals.Add(forSale);
 
-                Console.WriteLine("The cost of the animal is: " + forSale.CostOfAnimal);
+                Console.WriteLine("The cost of the animal is: " + animals.CostOfAnimal);
             }
             else if (resType == "lion")
             {
@@ -62,7 +62,7 @@ namespace NothingButAnimals
                 var forSale = new ForSale(animal);
                 listOfAnimals.Add(forSale);
 
-                Console.WriteLine("The cost of the animal is: " + forSale.CostOfAnimal);
+                Console.WriteLine("The cost of the animal is: " + animals.CostOfAnimal);
             }
 
         }
